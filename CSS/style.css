@@ -1,0 +1,32 @@
+/*O elemento abaixo indica que estou atribuindo essas funcionalidades a todos os elementos da página */
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    background-image: url('/Users/User/code/HTML_CSS_JS/Unifer/Imagens/Imagem principal fundo x2.png');
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-color: #ECECEC;
+    
+}
+.div_inicial_informaçoes{
+    width: 100%;
+    background-color: #292929;
+    padding: 15px;
+   
+}
+.div_tab_bar{
+    width: 95%;
+    border: 10px solid green;
+    
+    margin:10px;
+    margin-left: 30px;
+   
+}
+.strong_pag_inicial{
+    color:#005A8D;
+}
+

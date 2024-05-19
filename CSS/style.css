@@ -5,28 +5,55 @@
 body{
     margin:0;
     padding: 0;
-    height: 100%;
-    background-image: url('/Users/User/code/HTML_CSS_JS/Unifer/Imagens/Imagem principal fundo x2.png');
-    background-repeat: no-repeat;
-    background-position-x:right;
-    background-color: #ECECEC;
+    height: 100vh;
+    background-color: #ececec;
     
 }
-.div_inicial_informaçoes{
+
+.div_inicial_cor_preto{
     width: 100%;
     background-color: #292929;
     padding: 15px;
    
 }
-.div_tab_bar{
-    width: 95%;
-    border: 10px solid green;
+
+@media only screen and (max-width: 600px) {
+    .ul_navbar{
+        display: none;
+    }
+}
+.div_imagem_fundo{
+    width: 100%;
+    height: 75vh;
+    margin-top: 20px;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div_imagem_fundo_img{
+    width: 100%;
+    height: 75vh;
     
-    margin:10px;
-    margin-left: 30px;
-   
 }
 .strong_pag_inicial{
     color:#005A8D;
 }
-
+.ul_navbar{
+    list-style-type: none; /* deixando a lista sem aqueles simbolos */
+    width: 95%;
+    height: 60px;
+    margin-left: 2%;
+    border:2px solid #307030;
+    border-radius: 15px;
+    
+}
+.li_navbar{
+    float: right;
+    margin:15px
+}
+.li_a_navbar{
+    color:red;
+    text-decoration: none; 
+}

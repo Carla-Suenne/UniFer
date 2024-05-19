@@ -1,0 +1,174 @@
+/*O elemento abaixo indica que estou atribuindo essas funcionalidades a todos os elementos da página */
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    background-color: #ececec;
+    background-image: url('../public/imagens/Design\ sem\ nome\ \(1\).png ');
+    background-repeat: no-repeat;
+}
+h1,h2,h3,p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#azul{
+    color:#007ABE;
+}
+.div_inicial_cor_preto{
+    width: 100%;
+    background-color: #292929;
+    padding: 15px;
+   
+}
+.div_imagem_fundo{
+    width: 100%;
+    height: 75vh;
+    
+    display: flex;
+}
+.div_imagem_fundo_img{
+    width: 100%;
+    height: 75vh;
+}
+.div_navbar{
+    border:2px solid black;
+    border-radius: 15px;
+    width: 90%;
+    height: 12  vh;
+    margin: 15px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.div_navbar_conteudo{
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.div_navbar_conteudo_logo{
+    width: 10%;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.buttom_navbar{
+    width: 30%;
+    height: 100%;
+    color:#535353;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttom_navbar:hover:not(.active){
+    background-color: #D9D9D9;
+}
+#div_navbar_inscrever{
+    display: flex;
+    justify-content: center;
+}
+.buttom_navbar_inscrever{
+    width: 60%;
+    height: 70%;
+    background-color: #007ABE;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.buttom_navbar_inscrever:hover:not(.active){
+    background-color: #02466b;
+}
+
+
+.div_conteudo_principal{
+    width: 40%;
+    height: 50vh;
+    margin-top: 20vh;
+    margin-left: 15vh;
+
+
+}
+.div_texto_pequeno{
+    height: 10%;
+    color: #007ABE;
+    font-family: Arial, Helvetica, sans-serif,monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_texto_maior{
+    height: 70%;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.botoes_saiba_mais{
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.botoes_saiba_mais_comecar{
+    width: 30%;
+    height: 70%;
+    background-color: #005A8D;
+    border-radius: 15px;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.botoes_saiba_mais_comecar:hover:not(.active){
+    background-color: #02466b;
+}
+.botoes_saiba_mais_saiba_mais{
+    width: 30%;
+    height: 70%;
+    font-family: Arial;
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*proxima pagina*/
+
+.div_cursos_azul{
+    width: 100%;
+    height: 50vh;
+    margin-top: 30vh;
+    background-color: #007ABE;
+}
+
+@media only screen and (max-width: 600px) {
+    .div_navbar{
+        display: none;
+    }
+    
+}
